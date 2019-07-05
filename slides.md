@@ -11,10 +11,9 @@ css: slides.css
 ---
 
 "Perl was created for someone like you,by someone like you, with the
-collaboration of many other someones like you.
+collaboration of many other someones like you."
 
-&mdash; Larry Wall, in the
-Introduction to *Learning Perl*
+&mdash; Larry Wall, in the Introduction to *Learning Perl*
 
 ---
 
@@ -34,19 +33,19 @@ print((($line=join("",<>))=~s/.*\n/index($`,$&)>=$[?"":$&/ge&&$line));
 
 ---
 
-"Wanted: Young, skinny, wiry fellows not over 18. Must be expert riders willing
-to risk death daily. Orphan preferred. Wages $25 per week."
-
-&mdash; Pony Express advertisement, 1860
-
----
-
 "We realize the skills, intellect and personality we seek are rare, and our
 compensation plan reflects that. In return, we expect TOTAL AND ABSOLUTE
 COMMITMENT to project success — overcoming all obstacles to create applications
 on time and within budget."
 
 &mdash; Software developer advertisement, 1995
+
+---
+
+"Wanted: Young, skinny, wiry fellows not over 18. Must be expert riders willing
+to risk death daily. Orphan preferred. Wages $25 per week."
+
+&mdash; Pony Express advertisement, 1860
 
 ---
 
@@ -72,50 +71,52 @@ on time and within budget."
 
 - Is there something about the way programming is taught that puts people off?
 
-Note: Software development doesn't just need hard-core coding skills &mdash; is
-programming turning away people who would otherwise have good careers as
-analysts, designers, user-interface designers...?
+- Software development doesn't just need hard-core coding skills &mdash; is
+  programming turning away people who would otherwise have good careers as
+  analysts, designers, user-interface designers...?
 
 ---
 
 ## History of personality type
 
 - Plato (c. 350 BC)
-
 - Aristotle (c. 330 BC)
-
 - Galen (c. 200 AD) "humours"
 
 ---
 
 ## The four humours
 
-![The four humours (Image: Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/a/a1/Humorism.svg)
+![The four humours](https://upload.wikimedia.org/wikipedia/commons/a/a1/Humorism.svg)
+
+&mdash; Source: Wikipedia
 
 ---
 
 ## Humours and temperaments
 
-| Humour | Season | Element | Organ | Qualities | Temperament | Characteristics |
-|--------|--------|---------|-------|-----------|-------------|-----------------|
-| Blood  | Spring | Air | Liver | Warm & moist | Sanguine | Courageous, Hopeful, Amorous |
-| Yellow bile | Summer | Fire | Spleen | Warm & dry | Choleric | Angry, Bad tempered |
-| Black bile | Autumn | Earth | Gall bladder | Cold & dry | Melancholic | Despondent, Sleepless, Irritable |
-| Phlegm | Winter | Water | Brain/Lungs | Cold & moist | Phlegmatic | Calm, Unemotional |
+| Humour      | Element | Organ        | Qualities    | Temperament | Characteristics                  |
+|-------------|---------|--------------|--------------|-------------|----------------------------------|
+| Blood       | Air     | Liver        | Warm & moist | Sanguine    | Courageous, Hopeful, Amorous     |
+| Yellow bile | Fire    | Spleen       | Warm & dry   | Choleric    | Angry, Bad tempered              |
+| Black bile  | Earth   | Gall bladder | Cold & dry   | Melancholic | Despondent, Sleepless, Irritable |
+| Phlegm      | Water   | Brain/Lungs  | Cold & moist | Phlegmatic  | Calm, Unemotional                |
 
 ---
 
-## History
+## More recent history
 
 - Jung (1920) "Psychological type"
 
+  - Based on observation, inspired by earlier ideas
   - Only by understanding our differences can we get beyond intolerance and
     achieve respect and cooperation]
 
 - Katherine Briggs & Isabel Briggs Myers (1962) "The Myers-Briggs Type Indicator"
 
   - Close to the spirit of Jung
-  - Made it systematic
+  - More systematic
+  - More evidence-based
 
 ---
 
@@ -138,7 +139,7 @@ Note:
 
 ## Extroversion vs Introversion
 
-| Extrovert (E)                  | Introvert (I)                        |
+| Extroverts (E)                  | Introverts (I)                        |
 |---------------------------------|---------------------------------------|
 | Expressive                      | Reserved                              |
 | Energised by prolonged contact  | Drained...                            |
@@ -150,9 +151,9 @@ Note:
 
 ---
 
-If their needs (for contact/solitude) are not met:
+If their needs for contact / solitude are not met:
 
-- E's become depressed
+- E's can become depressed
 - I's become anxious, irritable and confused
 
 Our culture was largely created by E's for E's: Extroversion is seen as
@@ -162,7 +163,7 @@ good/desirable, introversion as bad/shameful/something to be fixed
 
 ## Sensing vs Intuition
 
-| Sensates (S)             | Intuitives (I)                                  |
+| Sensates (S)             | Intuitives (N)                                  |
 |--------------------------|-------------------------------------------------|
 | Observant / What *is*    | Imaginative / What could be                     |
 | Body                     | Mind                                            |
@@ -175,8 +176,10 @@ good/desirable, introversion as bad/shameful/something to be fixed
 
 ---
 
-- There are more S's than N's in the world
+- There are many more S's than N's in the world
+
 - N's at their best: Einstein
+
 - N's taken to an extreme: John Nash (A beautiful mind)
 
 ---
@@ -194,10 +197,12 @@ good/desirable, introversion as bad/shameful/something to be fixed
 ---
 
 - F's will compromise to avoid hurting someone's feelings
+
 - Extreme T's will lose friends over arguments about trivia
 
 - This is about how people instinctively make decisions
-- This is the polarity with a strong gender bias
+
+- This is the only polarity with a strong gender bias
 
 ---
 
@@ -215,26 +220,30 @@ good/desirable, introversion as bad/shameful/something to be fixed
 ---
 
 - According to J's, they are organised while P's are chaotic
+
 - According to P's, they are flexible while J's are rigid
 
 ---
 
 ## The 16 types
 
-|                 |                |                 |                    |
-|-----------------|----------------|-----------------|--------------------|
-| ISTJ Inspector  | ISFJ Protector | INFJ Counsellor | INTJ Mastermind    |
-| ISTP Crafter    | ISFP Composer  | INFP Healer     | INTP Architect     |
-| ESTP Promoter   | ESFP Performer | ENFP Champion   | ENTP Inventor      |
-| ESTJ Supervisor | ESFJ Provider  | ENFJ Teacher    | ENTJ Field Marshal |
+|                       |                      |                       |                          |
+|-----------------------|----------------------|-----------------------|--------------------------|
+| ISTJ<br/>"Inspector"  | ISFJ<br/>"Protector" | INFJ<br/>"Counsellor" | INTJ<br/>"Mastermind"    |
+| ISTP<br/>"Crafter"    | ISFP<br/>"Composer"  | INFP<br/>"Healer"     | INTP<br/>"Architect"     |
+| ESTP<br/>"Promoter"   | ESFP<br/>"Performer" | ENFP<br/>"Champion    | ENTP<br/>"Inventor"      |
+| ESTJ<br/>"Supervisor" | ESFJ<br/>"Provider"  | ENFJ<br/>"Teacher"    | ENTJ<br/>"Field Marshal" |
 
 ---
 
-## The four temperaments revisited
+## The four temperaments
 
 - SJ Melancholic / "Guardian": ISTJ, ISFJ, ESTJ, ESFJ
+
 - SP Sanguine / "Artisan": ISTP, ISFP, ESTP, ESFP
+
 - NF Choleric / "Idealist": INFJ, INFP, ENFJ, ENFP
+
 - NT Phlegmatic / "Rationalist": INTJ, INTP, ENTJ, ENTP
 
 ---
@@ -248,8 +257,9 @@ good/desirable, introversion as bad/shameful/something to be fixed
 | Thinker 40-50%   | Feeler 50-60%    |
 | Judger 54-60%    | Perceiver 40-46% |
 
-Note: This data is for the US. Frequencies might be different in other
-countries.
+- Note that this data is for the US. Frequencies might be different in other
+  countries.
+- Also these are estimates: there is significant uncertainty
 
 Source: <http://www.capt.org/mbti-assessment/estimated-frequencies.htm>
 
@@ -264,7 +274,9 @@ Source: <http://www.capt.org/mbti-assessment/estimated-frequencies.htm>
 | ESTP 4-5%   | ESFP 4-9%  | ENFP 6-8% | ENTP 2-5% |
 | ESTJ 8-12%  | ESFJ 9-13% | ENFJ 2-5% | ENTJ 2-5% |
 
-Source: <http://www.capt.org/mbti-assessment/estimated-frequencies.htm>
+---
+
+## How does this relate to us?
 
 ---
 
@@ -286,23 +298,21 @@ The general population is 3% INTJ, 3.5% ENTJ, and 4% INTP."
 
 ---
 
-## How does this relate to computing?
-
----
-
 ## Sensing vs iNtuiting
 
 - Tools, including languages, need to be adapted to the user
-- Perl was created by an S for other S's
-- Eiffel was created by an N for other N's
-- Design vs implementation
+  - Perl was clearly created by an S for other S's
+
+- Design / architecture vs implementation
 
 ---
 
 ## Perceiving vs Judging
 
 - Traditional software engineering processes were created by J's
+
 - CMM: Organisations need J's to get to Level 3, but then can't get beyond that
+
 - Extreme programming & other agile methods: Process for P's?
 
 ---
@@ -311,7 +321,9 @@ The general population is 3% INTJ, 3.5% ENTJ, and 4% INTP."
 
 - Correctness: Need T's (F's may feel bad about finding or reporting other
   people's bugs)
+
 - Teamwork: need F's (T's may tend to offend their team-mates)
+
 - Client interaction: need F's, or well educated / trained T's
 
 ---
@@ -319,56 +331,51 @@ The general population is 3% INTJ, 3.5% ENTJ, and 4% INTP."
 ## Introvert vs Extrovert
 
 - Physical environment (e.g. cubicles, shared offices) Introverts need solitude
-- Interaction with colleagues (e.g. long meetings are impossible for introverts)
+
+- Interaction with colleagues (e.g. long meetings are torture for introverts)
+
 - Computer interface
+
 - Interaction with clients
 
 ---
 
 ## Type in computing education
 
-Perceiving vs Judging:
-
-- It may not help to force "rigid" J methods on all students
-
-Feeling vs Thinking:
-
-- It might help to balance types in groups for team projects
-
-Sensing vs iNtuiting:
-
-- To S's, learning = memorising: "Understanding? What does that even mean?"
-
-- Most computing students are S's / Most lecturers are N's (?)
-
-- Can programming language choice influence the way students think about
-  programming?
+- Perceiving vs Judging:
+  - It may not help to force rigid J methods on all students
+- Feeling vs Thinking:
+  - It might help to balance types in groups for team projects
+- Sensing vs iNtuiting:
+  - To S's, learning = memorising: "Understanding? What does that even mean?"
+  - Most computing students are S's / Most lecturers are N's (?)
+  - Can programming language choice influence the way students think about
+    programming?
 
 ---
 
-## More thoughts
+## More thoughts / questions
 
 - Soft skills vs hard skills: don't want to put off F's in early stages of a
   course &mdash; will need them later
+
 - Maturity can mean being able to choose how to act (from either side of a
-  polarity), in other words transcending type
+  polarity), in other words transcending your type
+
 - When stressed, people can sometimes act as their opposite (e.g. N acts like an
   S, I acts like an E), but generaly not effectively
+
 - How does gender stereotyping fit with all this?
 
 ---
 
 ## Further reading
 
-1. Steve McConnell, "Orphans Preferred", (Chapter 7 of *Professional Software
-   Development*, Boston: Addison-Wesley, 2004). Available online at:
-   <https://www.gamasutra.com/view/feature/131820/orphans_preferred.php>
+- Steve McConnell, "Orphans Preferred", (Chapter 7 of *Professional Software
+  Development*, Boston: Addison-Wesley, 2004). Available online at:
+  <https://www.gamasutra.com/view/feature/131820/orphans_preferred.php>
 
-2. Gerald Weinberg, *Quality Software Management*, Volume 3: *Congruent
-   Action* (New York: Dorset House, 1994).
+- Gerald Weinberg, *Quality Software Management*, Volume 3: *Congruent
+  Action* (New York: Dorset House, 1994).
 
----
-
-## Want to know your type?
-
-<https://keirsey.com/>
+- Want to know your type? Free test at: <https://keirsey.com/>
